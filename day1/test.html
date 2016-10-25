@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+</body>
+<script>
+	function makeCounter () {
+		  var count = 0;
+		  return function () {
+		    count += 1;
+		    return count;
+		  }
+		}
+
+		var x = makeCounter();
+
+		console.log(x()); 
+
+		console.log(x()); 
+</script>
+</html>
