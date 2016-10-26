@@ -57,52 +57,6 @@ person3 = Array(temp)
 
 
 
-# def calculate(working_array)
-# 	working_array.each_with_index do |diamond_value, index|
-# 		current_diamond_value = working_array[index]
-# 		if current_diamond_value == total_to_each
-# 			working_array -= [current_diamond_value]
-# 		end
-
-# 		for i in (index+1...arr.length)
-# 			sum = current_diamond_value + arr[i]
-# 			if sum == total_to_each			
-# 				if person == 1
-# 					person1[] = [current_diamond_value, arr[i]]
-# 					person++
-# 				elsif person == 2
-# 					person2[] = [current_diamond_value, arr[i]]				
-# 				else
-# 					person3[] = [current_diamond_value, arr[i]]				
-# 				end
-# 				arr -= [current_diamond_value, arr[i]]			
-# 			elsif sum > total_to_each
-
-# 			end
-# 		end
-
-# 	end	
-# end
-
-
-# def calculate(number)
-# 	arr.each_with_index do |diamond, index|
-# 	case (index+1) % 3
-# 		when 1
-# 			person1 << diamond
-# 		when 2
-# 			person2 << diamond
-# 		when 0
-# 			person3 << diamond
-# 		end	
-# 	end
-
-# end
-
-
-# if arr.length % 3 != 0
-# 	puts "Cannot distribute equally to 3 people"
-# end
 print "Person1: #{person1} \n"
 print "Person2: #{person2} \n"
 print "Person3: #{person3} \n"
