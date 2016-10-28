@@ -3,6 +3,8 @@
 puts "Enter a number: "
 input = gets
 input_number = input.to_i
+if input_number == 1
+	puts "Its a unit number"
 if (input_number == 2 || input_number == 3)
 	puts "The number is a prime number"
 else
